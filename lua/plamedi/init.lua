@@ -5,4 +5,4 @@ catppuccin.setup()
 vim.cmd[[colorscheme catppuccin]]
 require("plamedi.remap")
 require("plamedi.packer")
-print("hello from plamedi")
+require("plamedi.set")

@@ -64,4 +64,5 @@ use {
         require('Comment').setup()
     end
 }
+use "rebelot/kanagawa.nvim"
   end)

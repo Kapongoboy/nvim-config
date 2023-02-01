@@ -65,4 +65,8 @@ use {
     end
 }
 use "rebelot/kanagawa.nvim"
+use {
+  'svrana/neosolarized.nvim',
+  requires = { 'tjdevries/colorbuddy.nvim'}
+}
   end)

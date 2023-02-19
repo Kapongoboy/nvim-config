@@ -52,7 +52,7 @@ use { "catppuccin/nvim", as = "catppuccin" }
 use {
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-}
+      }
 use {
 	"windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
@@ -86,4 +86,6 @@ use {
 use {"ellisonleao/gruvbox.nvim"}
 
 use {"nvim-tree/nvim-web-devicons"}
+
+use {"lewis6991/gitsigns.nvim"}
   end)

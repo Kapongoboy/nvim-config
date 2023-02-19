@@ -75,4 +75,15 @@ use {
   requires = {"nvim-tree/nvim-web-devicons"},
   -- config = function () require("trouble").setup {} end
 }
+
+use {
+  'nvim-tree/nvim-tree.lua',
+  requires = {
+    'nvim-tree/nvim-web-devicons',
+  },
+  tag = 'nightly'
+}
+use {"ellisonleao/gruvbox.nvim"}
+
+use {"nvim-tree/nvim-web-devicons"}
   end)

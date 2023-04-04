@@ -91,6 +91,13 @@ use {"lewis6991/gitsigns.nvim"}
 
 -- install without yarn or npm
 
-use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+use({ "iamcco/markdown-preview.nvim", 
+    run = function() vim.fn["mkdp#util#install"]() end,})
+
 use {'Exafunction/codeium.vim'}
+use {"EdenEast/nightfox.nvim"}
+use {"folke/tokyonight.nvim"}
+use {"marko-cerovac/material.nvim"}
+use {"tjdevries/colorbuddy.nvim"}
+use {"lervag/vimtex"}
   end)
